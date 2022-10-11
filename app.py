@@ -44,9 +44,9 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    TV = st.text_input("TV","Type Here")
-    Radio = st.text_input("Radio","Type Here")
-    NewsPaper = st.text_input("NewsPaper","Type Here")
+    TV = st.text_input("TV","")
+    Radio = st.text_input("Radio","")
+    NewsPaper = st.text_input("NewsPaper","")
    
     result=""
     if st.button("Predict"):
